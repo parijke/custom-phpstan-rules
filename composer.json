@@ -12,6 +12,9 @@
             "email": "paul@ibuildings.nl"
         }
     ],
+    "require": {
+        "php": "^8.0"
+    },
     "require-dev": {
         "phpstan/phpstan": "^1.10"
     }
