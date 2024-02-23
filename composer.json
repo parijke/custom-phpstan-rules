@@ -1,0 +1,16 @@
+{
+    "name": "paul/custom-phpstan-rules",
+    "description": "Custom phpstan rules",
+    "autoload": {
+        "psr-4": {
+            "Paul\\CustomPhpstanRules\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Paul Rijke",
+            "email": "paul@ibuildings.nl"
+        }
+    ],
+    "require": {}
+}
