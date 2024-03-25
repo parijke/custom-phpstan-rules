@@ -4,6 +4,11 @@
     "autoload": {
         "psr-4": {
             "Parijke\\CustomPhpstanRules\\": "src/"
+        },
+        "autoload-dev": {
+            "classmap": [
+                "tests/"
+            ]
         }
     },
     "authors": [
@@ -16,6 +21,7 @@
         "php": "^8.0"
     },
     "require-dev": {
-        "phpstan/phpstan": "^1.10"
+        "phpstan/phpstan": "^1.10",
+        "phpunit/phpunit": "^11.0"
     }
 }
