@@ -1,5 +1,3 @@
 <?php
 
-interface TestMe {
-
-}
+interface TestMe {}
