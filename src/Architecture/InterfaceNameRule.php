@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Paul\CustomPhpstanRules\Architecture;
+namespace Parijke\CustomPhpstanRules\Architecture;
 
 use PhpParser\Node\Stmt\Interface_;
 use PHPStan\Rules\Rule;
