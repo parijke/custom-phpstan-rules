@@ -1,3 +1,3 @@
 rules:
-    - Paul\CustomPhpstanRules\Architecture\InterfaceNameRule
-    - Paul\CustomPhpstanRules\Architecture\NoEmptyFunctionRule
+    - Parijke\CustomPhpstanRules\Architecture\InterfaceNameRule
+    - Parijke\CustomPhpstanRules\Architecture\NoEmptyFunctionRule
