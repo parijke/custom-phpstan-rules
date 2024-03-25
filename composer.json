@@ -3,7 +3,7 @@
     "description": "Custom phpstan rules",
     "autoload": {
         "psr-4": {
-            "Paul\\CustomPhpstanRules\\": "src/"
+            "Parijke\\CustomPhpstanRules\\": "src/"
         }
     },
     "authors": [
