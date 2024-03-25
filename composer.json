@@ -1,5 +1,5 @@
 {
-    "name": "paul/custom-phpstan-rules",
+    "name": "parijke/custom-phpstan-rules",
     "description": "Custom phpstan rules",
     "autoload": {
         "psr-4": {
