@@ -1,5 +1,9 @@
 <?php
 
+declare(strict_types=1);
+
+namespace Paul\CustomPhpstanRules\Architecture;
+
 use PhpParser\Node;
 use PHPStan\Analyser\Scope;
 use PHPStan\Rules\Rule;
