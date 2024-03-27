@@ -8,7 +8,6 @@ use PhpParser\Node\Stmt\Interface_;
 use PHPStan\Rules\Rule;
 use PhpParser\Node;
 use PHPStan\Analyser\Scope;
-
 class InterfaceNameRule implements Rule
 {
     public function getNodeType(): string
