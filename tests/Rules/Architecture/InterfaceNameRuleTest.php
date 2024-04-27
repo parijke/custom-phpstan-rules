@@ -7,7 +7,9 @@ namespace Rules\Architecture;
 use PHPStan\Rules\Rule;
 use PHPStan\Testing\RuleTestCase;
 use Parijke\CustomPhpstanRules\Architecture\InterfaceNameRule;
+use PHPUnit\Framework\Attributes\CoversClass;
 
+#[CoversClass(InterfaceNameRule::class)]
 class InterfaceNameRuleTest extends RuleTestCase
 {
 

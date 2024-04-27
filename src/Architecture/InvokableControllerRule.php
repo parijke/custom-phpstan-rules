@@ -12,7 +12,7 @@ use PhpParser\Node\Stmt\ClassMethod;
 
 class InvokableControllerRule implements Rule
 {
-    private $allowedMethods = ['__construct', '__invoke'];
+    private array $allowedMethods = ['__construct', '__invoke'];
 
     public function getNodeType(): string
     {

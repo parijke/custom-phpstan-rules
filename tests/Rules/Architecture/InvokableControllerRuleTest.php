@@ -7,7 +7,9 @@ namespace Rules\Architecture;
 use Parijke\CustomPhpstanRules\Architecture\InvokableControllerRule;
 use PHPStan\Rules\Rule;
 use PHPStan\Testing\RuleTestCase;
+use PHPUnit\Framework\Attributes\CoversClass;
 
+#[CoversClass(InvokableControllerRule::class)]
 class InvokableControllerRuleTest extends RuleTestCase
 {
 
