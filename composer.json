@@ -1,15 +1,18 @@
 {
     "name": "parijke/custom-phpstan-rules",
     "description": "Custom phpstan rules",
+    "license": [
+        "MIT"
+      ],
     "autoload": {
         "psr-4": {
             "Parijke\\CustomPhpstanRules\\": "src/"
-        },
-        "autoload-dev": {
-            "classmap": [
-                "tests/"
-            ]
         }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/"
+        ]
     },
     "authors": [
         {
