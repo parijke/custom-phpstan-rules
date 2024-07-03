@@ -18,7 +18,7 @@ class NoGenericExceptionRule implements Rule
         return Throw_::class;
     }
 
-        public function processNode(Node $node, Scope $scope): array
+    public function processNode(Node $node, Scope $scope): array
     {
         $exprType = $scope->getType($node->expr);
 
