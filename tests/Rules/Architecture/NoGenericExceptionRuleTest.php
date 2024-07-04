@@ -23,7 +23,7 @@ class NoGenericExceptionRuleTest extends RuleTestCase
         $this->analyse([__DIR__ . '/data/IllegalExceptionUsed.php'], [
                 [
                     'Generic Exception is not allowed. Use a dedicated exception class instead.',
-                    14,
+                    3,
                 ],
             ]
         );

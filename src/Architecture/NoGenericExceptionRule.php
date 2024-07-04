@@ -12,6 +12,11 @@ use PHPStan\Type\ObjectType;
 
 class NoGenericExceptionRule implements Rule
 {
+    private array $prohibitedClasses = [
+            \Exception::class,
+            \RuntimeException::class,
+            \Error::class,
+    ];
 
     public function getNodeType(): string
     {
@@ -24,7 +29,7 @@ class NoGenericExceptionRule implements Rule
 
         if ($exprType instanceof ObjectType) {
             $className = $exprType->getClassName();
-            if ($className === \Exception::class) {
+            if (in_array($className, $this->prohibitedClasses, true)) {
                 return [
                     'Generic Exception is not allowed. Use a dedicated exception class instead.'
                 ];
