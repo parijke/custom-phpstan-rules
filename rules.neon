@@ -1,3 +1,4 @@
 rules:
+    - Parijke\CustomPhpstanRules\Architecture\NoGenericExceptionRule
     - Parijke\CustomPhpstanRules\Architecture\InterfaceNameRule
     - Parijke\CustomPhpstanRules\Architecture\NoEmptyFunctionRule
